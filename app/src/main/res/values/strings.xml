@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="search_hint">Search</string>
+    <string name="app_label">search</string>
+    <string name="menu_1">Search</string>
+    <string name="menu_2">Artists</string>
+    <string name="menu_3">Albums</string>
+    <string name="menu_4">Songs</string>
+    <string name="menu_5">Playlists</string>
+    <string name="description_search">Here you can find any song on your phone.</string>
+    <string name="description_artists">Choose artist and listen to his music.</string>
+    <string name="description_albums">Choose album you would like to listen</string>
+    <string name="description_songs">Every song displayed one by one in alfabethic order</string>
+    <string name="description_playlists">Listen playlists created by you earlier</string>
+</resources>

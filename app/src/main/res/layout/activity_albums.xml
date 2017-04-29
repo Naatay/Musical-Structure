@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_albums"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructure.AlbumsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/search"
+            style="@style/menu"
+            android:text="@string/menu_1" />
+
+        <TextView
+            android:id="@+id/artists"
+            style="@style/menu"
+            android:background="@color/colorLightNav"
+            android:text="@string/menu_2" />
+
+        <TextView
+            android:id="@+id/albums"
+            style="@style/menu"
+            android:text="@string/menu_3"
+            android:textColor="@color/highlight" />
+
+        <TextView
+            android:id="@+id/songs"
+            style="@style/menu"
+            android:background="@color/colorLightNav"
+            android:text="@string/menu_4" />
+
+        <TextView
+            android:id="@+id/playlists"
+            style="@style/menu"
+            android:text="@string/menu_5" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/descrption"
+        android:text="@string/description_albums" />
+
+</LinearLayout>
