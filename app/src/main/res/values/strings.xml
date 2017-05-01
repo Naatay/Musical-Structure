@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Musical Structure</string>
     <string name="search_hint">Search</string>
+    
     <string name="app_label">search</string>
     <string name="menu_1">Search</string>
     <string name="menu_2">Artists</string>
