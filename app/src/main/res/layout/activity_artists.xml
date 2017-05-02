@@ -4,8 +4,8 @@
     android:id="@+id/activity_artists"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.musicalstructure.ArtistsActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructure.ArtistsActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,42 +13,42 @@
         android:layout_weight="1">
 
         <TextView
+            android:id="@+id/search"
             style="@style/menu"
-            android:text="@string/menu_1"
-            android:id="@+id/search"/>
+            android:text="@string/menu_1" />
 
         <TextView
+            android:id="@+id/artists"
             style="@style/menu"
+            android:background="@color/colorLightNav"
             android:text="@string/menu_2"
+            android:textColor="@color/highlight" />
+
+        <TextView
+            android:id="@+id/albums"
+            style="@style/menu"
+            android:text="@string/menu_3" />
+
+        <TextView
+            android:id="@+id/songs"
+            style="@style/menu"
             android:background="@color/colorLightNav"
-            android:textColor="@color/highlight"
-            android:id="@+id/artists"/>
+            android:text="@string/menu_4" />
 
         <TextView
+            android:id="@+id/playlists"
             style="@style/menu"
-            android:text="@string/menu_3"
-            android:id="@+id/albums"/>
-
-        <TextView
-            style="@style/menu"
-            android:text="@string/menu_4"
-            android:background="@color/colorLightNav"
-            android:id="@+id/songs"/>
-
-        <TextView
-            style="@style/menu"
-            android:text="@string/menu_5"
-            android:id="@+id/playlists"/>
+            android:text="@string/menu_5" />
     </LinearLayout>
 
     <android.support.v7.widget.CardView
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:id="@+id/card_view"
-        android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        card_view:cardCornerRadius="4dp"
-        android:layout_marginBottom="@dimen/card_bottom_margin">
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/card_bottom_margin"
+        card_view:cardCornerRadius="@dimen/card_radius">
 
     <TextView
         style="@style/descrption"
