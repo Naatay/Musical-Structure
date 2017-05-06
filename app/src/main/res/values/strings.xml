@@ -12,5 +12,6 @@
     <string name="description_albums">Choose album you would like to listen</string>
     <string name="description_songs">Every song displayed one by one in alfabethic order</string>
     <string name="description_playlists">Listen playlists created by you earlier</string>
+    <string name="description">I will use framework MediaPlayer and class MediaController to finish this app</string>
     <string name="icon">icon</string>
 </resources>
